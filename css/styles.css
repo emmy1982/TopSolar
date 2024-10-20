@@ -28,6 +28,20 @@ body {
     background-color: rgba(0, 0, 0, 0); /* Fondo semitransparente para el navbar */
     color: white;
 }
+.navbar02 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20; /* Asegura que el navbar esté por encima del contenido del header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%; /* Aumentamos el padding horizontal */
+  background-color: rgba(0, 0, 0, 0.11); /* Fondo semitransparente para el navbar */
+  color: white;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
 
 .logo {
     font-size: 1.8rem;
@@ -1105,7 +1119,7 @@ body {
     margin: 2rem auto;
     padding: 0 1rem;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 130px;
 }
 
 .galeria-intro h1 {
@@ -1150,7 +1164,8 @@ body {
   margin: 2rem auto;
   padding: 0 1rem;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 130px;
+  margin-bottom: 80px;
 }
 
 .contacto-intro h1 {
