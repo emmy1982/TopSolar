@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - TopSolar</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">TopSolar</div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+                <li><a href="../views/galeria.html">Galería</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contacto-intro">
+            <h1>Contáctanos</h1>
+            <p>En TopSolar, estamos comprometidos con la energía limpia y sostenible. Si tienes preguntas sobre nuestros servicios, deseas obtener un presupuesto o simplemente quieres saber más sobre cómo la energía solar puede beneficiarte, no dudes en contactarnos. Nuestro equipo de expertos está listo para ayudarte.</p>
+        </section>
+        <section class="formulario-contacto">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer id="contacto-footer" class="site-footer">
+        <div class="footer-content">
+          <div class="footer-section1">
+            <h3>Nuestra Dirección</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Carretera Estatal, Florida</p>
+            <p><i class="fas fa-phone"></i> +666 333 9999</p>
+            <p><i class="fas fa-envelope"></i> Tudominio@Email.Com</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+              <li><a href="#">SOBRE NOSOTROS</a></li>
+              <li><a href="#">NUESTROS SERVICIOS</a></li>
+              <li><a href="#">POLÍTICA DE PRIVACIDAD</a></li>
+              <li><a href="#">CONTÁCTENOS</a></li>
+              <li><a href="#">APOYO</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Galería De Proyectos</h3>
+            <div class="gallery-grid">
+              <img src="../asset/image/imagen1(4).jpg" alt="Proyecto 1">
+              <img src="../asset/image/imagen1(6).jpg" alt="Proyecto 2">
+              <img src="../asset/image/imagen1(7).jpg" alt="Proyecto 3">
+              <img src="../asset/image/imagen1(8).jpg" alt="Proyecto 4">
+              <img src="../asset/image/imagen1(9).jpg" alt="Proyecto 5">
+              <img src="../asset/image/imagen1(10).jpg" alt="Proyecto 6">
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Nuestro Boletín Informativo</h3>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Su dirección de correo electrónico">
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 TopSolar - Todos los derechos reservados</p>
+          <p>Creado por <span>DigiCode</span></p>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
